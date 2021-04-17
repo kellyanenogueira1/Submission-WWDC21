@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B02466D262B0524009E73AC /* Vovodecostas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B02466C262B0524009E73AC /* Vovodecostas.png */; };
+		0B024672262B1A7A009E73AC /* BlurButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B024671262B1A79009E73AC /* BlurButton.swift */; };
+		0B024677262B8F7F009E73AC /* olhoAberto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B024676262B8F7F009E73AC /* olhoAberto.png */; };
+		0B02467C262B8F8A009E73AC /* olhoFechado.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B02467B262B8F8A009E73AC /* olhoFechado.png */; };
 		0B2B28E7262A79AD00F1B9AE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28E6262A79AD00F1B9AE /* GameScene.sks */; };
 		0B2B28F1262A7A2B00F1B9AE /* Relogio.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28EB262A7A2A00F1B9AE /* Relogio.png */; };
 		0B2B28F2262A7A2B00F1B9AE /* Vovo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28EC262A7A2A00F1B9AE /* Vovo2.png */; };
 		0B2B28F3262A7A2B00F1B9AE /* Vovo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28ED262A7A2A00F1B9AE /* Vovo3.png */; };
 		0B2B28F4262A7A2B00F1B9AE /* Vovo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28EE262A7A2A00F1B9AE /* Vovo1.png */; };
-		0B2B28F5262A7A2B00F1B9AE /* Vovodecostas.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28EF262A7A2B00F1B9AE /* Vovodecostas.png */; };
 		0B2B28F6262A7A2B00F1B9AE /* Vovo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28F0262A7A2B00F1B9AE /* Vovo4.png */; };
 		0B2B28FF262A7A3900F1B9AE /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28FA262A7A3900F1B9AE /* Banana.png */; };
 		0B2B2900262A7A3900F1B9AE /* Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B28FB262A7A3900F1B9AE /* Background2.png */; };
@@ -137,12 +140,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B02466C262B0524009E73AC /* Vovodecostas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vovodecostas.png; sourceTree = "<group>"; };
+		0B024671262B1A79009E73AC /* BlurButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurButton.swift; sourceTree = "<group>"; };
+		0B024676262B8F7F009E73AC /* olhoAberto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olhoAberto.png; sourceTree = "<group>"; };
+		0B02467B262B8F8A009E73AC /* olhoFechado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olhoFechado.png; sourceTree = "<group>"; };
 		0B2B28E6262A79AD00F1B9AE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		0B2B28EB262A7A2A00F1B9AE /* Relogio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relogio.png; sourceTree = "<group>"; };
 		0B2B28EC262A7A2A00F1B9AE /* Vovo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vovo2.png; sourceTree = "<group>"; };
 		0B2B28ED262A7A2A00F1B9AE /* Vovo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vovo3.png; sourceTree = "<group>"; };
 		0B2B28EE262A7A2A00F1B9AE /* Vovo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vovo1.png; sourceTree = "<group>"; };
-		0B2B28EF262A7A2B00F1B9AE /* Vovodecostas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vovodecostas.png; sourceTree = "<group>"; };
 		0B2B28F0262A7A2B00F1B9AE /* Vovo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vovo4.png; sourceTree = "<group>"; };
 		0B2B28FA262A7A3900F1B9AE /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
 		0B2B28FB262A7A3900F1B9AE /* Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background2.png; sourceTree = "<group>"; };
@@ -251,6 +257,7 @@
 				0B738F88262A761C00C998B9 /* Environment.swift */,
 				0B738F8D262A763C00C998B9 /* Object.swift */,
 				0B738F92262A765800C998B9 /* Door.swift */,
+				0B024671262B1A79009E73AC /* BlurButton.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -419,15 +426,17 @@
 				0B2B28FA262A7A3900F1B9AE /* Banana.png */,
 				0B2B28FD262A7A3900F1B9AE /* Carrinho.png */,
 				0B2B28EB262A7A2A00F1B9AE /* Relogio.png */,
+				0B02466C262B0524009E73AC /* Vovodecostas.png */,
 				0B2B28EE262A7A2A00F1B9AE /* Vovo1.png */,
 				0B2B28EC262A7A2A00F1B9AE /* Vovo2.png */,
 				0B2B28ED262A7A2A00F1B9AE /* Vovo3.png */,
 				0B2B28F0262A7A2B00F1B9AE /* Vovo4.png */,
-				0B2B28EF262A7A2B00F1B9AE /* Vovodecostas.png */,
 				0B2B290C262A7BFF00F1B9AE /* Door1.png */,
 				0B2B290B262A7BFF00F1B9AE /* Door2.png */,
 				0B2B290A262A7BFF00F1B9AE /* DoorFillColor1.png */,
 				0B2B290D262A7BFF00F1B9AE /* DoorFillColor2.png */,
+				0B024676262B8F7F009E73AC /* olhoAberto.png */,
+				0B02467B262B8F8A009E73AC /* olhoFechado.png */,
 				0B2B28E6262A79AD00F1B9AE /* GameScene.sks */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
@@ -579,15 +588,17 @@
 				0B2B28E7262A79AD00F1B9AE /* GameScene.sks in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				0B2B2910262A7BFF00F1B9AE /* Door1.png in Resources */,
-				0B2B28F5262A7A2B00F1B9AE /* Vovodecostas.png in Resources */,
 				0B2B28F2262A7A2B00F1B9AE /* Vovo2.png in Resources */,
+				0B02466D262B0524009E73AC /* Vovodecostas.png in Resources */,
 				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
 				0B2B28F3262A7A2B00F1B9AE /* Vovo3.png in Resources */,
 				0B2B28F1262A7A2B00F1B9AE /* Relogio.png in Resources */,
 				0B2B2911262A7BFF00F1B9AE /* DoorFillColor2.png in Resources */,
+				0B024677262B8F7F009E73AC /* olhoAberto.png in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 				0B2B2901262A7A3900F1B9AE /* Background1.png in Resources */,
 				0B2B28F6262A7A2B00F1B9AE /* Vovo4.png in Resources */,
+				0B02467C262B8F8A009E73AC /* olhoFechado.png in Resources */,
 				0B2B28F4262A7A2B00F1B9AE /* Vovo1.png in Resources */,
 				0B2B2903262A7A3900F1B9AE /* Abajur.png in Resources */,
 				0B2B28FF262A7A3900F1B9AE /* Banana.png in Resources */,
@@ -666,6 +677,7 @@
 				0B738F93262A765800C998B9 /* Door.swift in Sources */,
 				0B738F89262A761C00C998B9 /* Environment.swift in Sources */,
 				0B738F6A262A748100C998B9 /* ArtViewController1.swift in Sources */,
+				0B024672262B1A7A009E73AC /* BlurButton.swift in Sources */,
 				0B738F8E262A763C00C998B9 /* Object.swift in Sources */,
 				0B738F81262A75E300C998B9 /* Character.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
