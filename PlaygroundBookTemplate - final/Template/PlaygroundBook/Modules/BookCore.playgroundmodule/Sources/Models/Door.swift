@@ -18,10 +18,11 @@ public class Door: SKSpriteNode {
         }
     }
     
-    public init(newTexture: SKTexture, size: CGSize, position: CGPoint) {
-        super.init(texture: SKTexture(imageNamed: ""), color: .clear, size: size)
+    public init(texture: SKTexture, newTexture: SKTexture, size: CGSize, position: CGPoint) {
+        super.init(texture: texture, color: .clear, size: size)
+        self.texture = texture
         self.position = position
-        self.zPosition = 10
+        self.zPosition = 5
         self.newTexture = newTexture
     }
     
