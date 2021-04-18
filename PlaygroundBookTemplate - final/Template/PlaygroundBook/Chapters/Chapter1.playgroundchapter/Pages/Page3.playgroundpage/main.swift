@@ -7,8 +7,8 @@
 //
 //#-end-hidden-code
 
-//import PlaygroundSupport
-//import SpriteKit
-//import BookCore
-//
-//PlaygroundSupport.PlaygroundPage.current.liveView = ArtViewController3()
+import PlaygroundSupport
+import SpriteKit
+import BookCore
+
+PlaygroundSupport.PlaygroundPage.current.liveView = ArtViewController3()
