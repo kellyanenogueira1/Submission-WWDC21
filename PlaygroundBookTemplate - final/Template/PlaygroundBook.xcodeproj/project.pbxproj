@@ -22,7 +22,6 @@
 		0B024699262BD79A009E73AC /* Janela7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B024690262BD79A009E73AC /* Janela7.png */; };
 		0B02469A262BD79A009E73AC /* Janela8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B024691262BD79A009E73AC /* Janela8.png */; };
 		0B02469B262BD79A009E73AC /* Janela6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B024692262BD79A009E73AC /* Janela6.png */; };
-		0B0246A0262BD7B0009E73AC /* Quadro.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B02469F262BD7B0009E73AC /* Quadro.png */; };
 		0B0246A5262BD7BC009E73AC /* Background3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0246A4262BD7BC009E73AC /* Background3.png */; };
 		0B0246AB262BD7CD009E73AC /* TV.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0246A9262BD7CD009E73AC /* TV.png */; };
 		0B0246AC262BD7CD009E73AC /* TVAberta.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0246AA262BD7CD009E73AC /* TVAberta.png */; };
@@ -42,6 +41,7 @@
 		0B2B290F262A7BFF00F1B9AE /* Door2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B290B262A7BFF00F1B9AE /* Door2.png */; };
 		0B2B2910262A7BFF00F1B9AE /* Door1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B290C262A7BFF00F1B9AE /* Door1.png */; };
 		0B2B2911262A7BFF00F1B9AE /* DoorFillColor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B290D262A7BFF00F1B9AE /* DoorFillColor2.png */; };
+		0B61E13A262DD590008BB233 /* Quadro.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B61E139262DD590008BB233 /* Quadro.png */; };
 		0B738F6A262A748100C998B9 /* ArtViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B738F69262A748100C998B9 /* ArtViewController1.swift */; };
 		0B738F6F262A749300C998B9 /* ArtScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B738F6E262A749300C998B9 /* ArtScene1.swift */; };
 		0B738F81262A75E300C998B9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B738F80262A75E300C998B9 /* Character.swift */; };
@@ -171,7 +171,6 @@
 		0B024690262BD79A009E73AC /* Janela7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Janela7.png; sourceTree = "<group>"; };
 		0B024691262BD79A009E73AC /* Janela8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Janela8.png; sourceTree = "<group>"; };
 		0B024692262BD79A009E73AC /* Janela6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Janela6.png; sourceTree = "<group>"; };
-		0B02469F262BD7B0009E73AC /* Quadro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quadro.png; sourceTree = "<group>"; };
 		0B0246A4262BD7BC009E73AC /* Background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background3.png; sourceTree = "<group>"; };
 		0B0246A9262BD7CD009E73AC /* TV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TV.png; sourceTree = "<group>"; };
 		0B0246AA262BD7CD009E73AC /* TVAberta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TVAberta.png; sourceTree = "<group>"; };
@@ -191,6 +190,7 @@
 		0B2B290B262A7BFF00F1B9AE /* Door2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Door2.png; sourceTree = "<group>"; };
 		0B2B290C262A7BFF00F1B9AE /* Door1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Door1.png; sourceTree = "<group>"; };
 		0B2B290D262A7BFF00F1B9AE /* DoorFillColor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoorFillColor2.png; sourceTree = "<group>"; };
+		0B61E139262DD590008BB233 /* Quadro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quadro.png; sourceTree = "<group>"; };
 		0B738F69262A748100C998B9 /* ArtViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewController1.swift; sourceTree = "<group>"; };
 		0B738F6E262A749300C998B9 /* ArtScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtScene1.swift; sourceTree = "<group>"; };
 		0B738F7B262A750B00C998B9 /* ArtViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtViewController3.swift; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		0B738F88262A761C00C998B9 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		0B738F8D262A763C00C998B9 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
 		0B738F92262A765800C998B9 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
-		5E086DC02051C5A7004D8D25 /* Wwdc21.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wwdc21.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E086DC02051C5A7004D8D25 /* Memories.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Memories.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* Wwdc21.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Memories.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBookCore.a */,
 				5E6F7E612368FB6A008CC191 /* libBookAPI.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
@@ -473,7 +473,7 @@
 				0B2B290D262A7BFF00F1B9AE /* DoorFillColor2.png */,
 				0B024676262B8F7F009E73AC /* olhoAberto.png */,
 				0B02467B262B8F8A009E73AC /* olhoFechado.png */,
-				0B02469F262BD7B0009E73AC /* Quadro.png */,
+				0B61E139262DD590008BB233 /* Quadro.png */,
 				0B0246A9262BD7CD009E73AC /* TV.png */,
 				0B0246AA262BD7CD009E73AC /* TVAberta.png */,
 				0B02468C262BD799009E73AC /* Janela1.png */,
@@ -521,7 +521,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* Wwdc21.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Memories.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5E6F7E602368FB6A008CC191 /* BookAPI */ = {
@@ -637,13 +637,13 @@
 				0B2B2900262A7A3900F1B9AE /* Background2.png in Resources */,
 				0B024699262BD79A009E73AC /* Janela7.png in Resources */,
 				0B024696262BD79A009E73AC /* Janela5.png in Resources */,
+				0B61E13A262DD590008BB233 /* Quadro.png in Resources */,
 				0B2B290F262A7BFF00F1B9AE /* Door2.png in Resources */,
 				0B0246AB262BD7CD009E73AC /* TV.png in Resources */,
 				0B2B28E7262A79AD00F1B9AE /* GameScene.sks in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				0B2B2910262A7BFF00F1B9AE /* Door1.png in Resources */,
 				0B2B28F2262A7A2B00F1B9AE /* Vovo2.png in Resources */,
-				0B0246A0262BD7B0009E73AC /* Quadro.png in Resources */,
 				0B02466D262B0524009E73AC /* Vovodecostas.png in Resources */,
 				0B024698262BD79A009E73AC /* Janela3.png in Resources */,
 				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
