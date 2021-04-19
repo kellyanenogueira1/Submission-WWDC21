@@ -23,7 +23,7 @@ public class Tv: SKSpriteNode {
         self.texture = texture
         self.size = size
         self.position = position
-        self.zPosition = 5
+        self.zPosition = 1
     }
     
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
