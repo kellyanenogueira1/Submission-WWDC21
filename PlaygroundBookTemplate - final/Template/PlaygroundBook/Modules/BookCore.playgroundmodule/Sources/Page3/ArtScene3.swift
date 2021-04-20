@@ -47,16 +47,6 @@ public class ArtScene3: SKScene {
         addChild(window)
         addChild(tv)
         addChild(character)
-  
-        //        let light = SKLightNode()
-        //        light.lightColor = UIColor.white
-        //        light.falloff = 0.5
-                
-                
-        //        environment.lightingBitMask = 0xFFFFFFFF
-        //        environment.shadowCastBitMask = 0xFFFFFFFF
-                    
-                //self.addChild(light)
     }
     
     public override func update(_ currentTime: TimeInterval) {
