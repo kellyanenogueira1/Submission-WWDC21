@@ -11,4 +11,4 @@ import PlaygroundSupport
 import SpriteKit
 import BookCore
 
-PlaygroundSupport.PlaygroundPage.current.liveView = ArtViewController3()
+PlaygroundSupport.PlaygroundPage.current.liveView = ArtViewController4()
